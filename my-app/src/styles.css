@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.6), 
+      rgba(0, 0, 0, 0.6)
+    ), 
+    url('https://images.unsplash.com/photo-1512820790803-83ca734da794')
+  }
+  .FirstPage{
+    display: flex;
+    justify-content: flex-end;
+  }
+  .Register, .Login{
+    border-radius: 5px;
+    background: wheat;
+    padding: 10px;
+    text-decoration: none;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+  .WelcomMessage{
+    text-align: center;
+    padding-top: 25px;
+
+    }  .App {
+    height: 100vh;
+    display: flex;
+    justify-content: center;  /* Center horizontally */
+    align-items: center;      /* Center vertically */
+    flex-direction: column;
+    background: 
+      linear-gradient(
+        rgba(0, 0, 0, 0.6), 
+        rgba(0, 0, 0, 0.6)
+      ), 
+      url('https://images.unsplash.com/photo-1512820790803-83ca734da794');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+  }
+  .navbar{
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-around;
+    padding: 15px;
+    align-items: center;
+    background: 
+    linear-gradient(rgb(203 116 116 / 60%), rgb(255 255 255 / 60%));
+    margin: 10px;
+    border-radius: 10px;
+  }
+  .navbar a{
+    border-radius: 5px;
+    border: 1px solid #000;
+    text-decoration: none;
+    padding: 5px;
+  }
+  .BookListContainer{
+    display: flex;
+    align-items: center;
+    color: #000;
+  }
+  .BookListEditCta{
+    padding: 7px;
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-right: 5px;
+  }
+  .BookListDeleteCta{
+    padding: 7px;
+    background-color: #d63b3b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .BookListDeleteCta:hover{
+    background-color: #ee1b1b;
+  }
+  .widthInput input{
+width: 100%;
+  }
+  .navbarmain{
+    position: absolute;
+    top: 0px;
+    width: 95%;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.navbarmain a {
+  text-decoration: none;
+  background-color: #5cd5eb;
+  padding: 10px;
+  border-radius: 10px;
+  color: #000;
+  margin: 0px 10px;
+}
+.navbarmain a:hover {
+  text-decoration: none;
+  background-color: #df3c72;
+  padding: 10px;
+  border-radius: 10px;
+  color: #000;
+}
+.paddingBookList{
+  padding: 0px 5px;
+}
+.book-item{
+  margin-bottom: 10px;
+}
+.edit-book-container{
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 50%;
+}
+.form-buttons{
+  margin-top: 10px;
+}
+.no-books-message{
+  color: #000;
+}
+.logout-button{
+  text-decoration: none;
+    background-color: #5cd5eb;
+    padding: 10px;
+    border-radius: 10px;
+    color: #000;
+    margin: 0px 10px;
+}
+.logout-button{
+  text-decoration: none;
+    background-color: #e03d3d;
+    padding: 10px;
+    border-radius: 10px;
+    color: #ffffff;
+    margin: 0px 10px;
+}

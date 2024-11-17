@@ -1,0 +1,90 @@
+/* Reset and basic setup */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    height: 100vh; /* Full viewport height */
+    background: linear-gradient(#ff8181, #313cbf),
+    url('https://images.unsplash.com/photo-1524985069026-dd778a71c7b4');
+  background-size: cover; /* Cover full background */
+    background-size: cover;  /* Ensure the image covers the whole background */
+    background-position: center; /* Center the image */
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    background-color: rgb(55 39 39 / 80%);  /* White background with transparency */
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;  /* Set a max width for the form */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;  /* Center the text */
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #2c3e50;  /* Matching text color */
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 2px solid #dcdcdc;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: border 0.3s;
+  }
+  
+  input[type="text"]:focus,
+  input[type="password"]:focus {
+    border-color: #2980b9;  /* Blue focus color */
+  }
+  
+  button {
+    padding: 12px;
+    background-color: #2980b9;  /* Blue button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #1e6091;  /* Darker blue on hover */
+  }
+  
+  .error-message {
+    color: red;
+    margin-bottom: 10px;
+  }
+  .title-heading{
+    padding-bottom: 15px;
+  }
+  .para-heading{
+    height: 10vh;
+  }
+  
+  
+  /* Responsive design for mobile */
+  @media (max-width: 480px) {
+    .container {
+      width: 90%;
+      padding: 20px;
+    }
+  }
+  
